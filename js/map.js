@@ -10,13 +10,12 @@ let animals = [
 
 let foodCalories = animals.map(item => {
     let obj = {};
-
     obj[item.name] = item.likes;
     obj.calories = item.name.length * 10;
     return obj;
 })
-
 console.log(foodCalories);
+
 
 /* порядковый номер */
 

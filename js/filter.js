@@ -30,7 +30,6 @@ Array.from(table.rows).forEach((tr)=>{
     })
     arrTable.push(objTr);
 })
-console.log(arrTable);
 let jpg = arrTable.filter(item => item.src.includes('jpg'));
 console.log(jpg);
 
